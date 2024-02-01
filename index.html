@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="toggle-container">
+        <button type="button" id="toggle" class="toggle">🌛</button>
+    </div>
+
+    <h1>todos</h1>
+    <form id="form" action="">
+        <input class="text-input" type="text" placeholder="What do you need to do?" autocomplete="off" />
+
+        <ul class="todos" id="todos"></ul>
+
+        <small class="remaining-count" id="remaining-count">0 total todos</small>
+    </form>
+    <small>Left click to toggle complete. <br />Right click to delete the todo.</small>
+</body>
+
+</html>
